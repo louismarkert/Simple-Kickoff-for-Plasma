@@ -183,7 +183,7 @@ Item {
             }
         }
 
-        hoverEnabled: true
+        hoverEnabled: false
         // For some reason, onClicked can cause the plasmoid to expand after
         // releasing sometimes in plasmoidviewer.
         // plasmashell doesn't seem to have this issue.
