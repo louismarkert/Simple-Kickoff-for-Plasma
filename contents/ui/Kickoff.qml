@@ -210,7 +210,7 @@ Item {
 
             anchors.fill: parent
             source: plasmoid.icon
-            active: parent.containsMouse || compactDragArea.containsDrag
+            active: compactDragArea.containsDrag
             smooth: true
             roundToIconSize: aspectRatio === 1
         }
